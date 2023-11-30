@@ -6,7 +6,7 @@ spec:
   containers:
 
     - name: server
-      image: server:1.2
+      image: imlinux68/pod_yaml:latest
 
     - name: client
       image: curlimages/curl:7.76.0
